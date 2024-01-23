@@ -15,9 +15,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\Administrator\\Desktop\\my-website\\sidebars.js",
-          "contentPath": "C:\\Users\\Administrator\\Desktop\\my-website\\docs",
-          "contentPathLocalized": "C:\\Users\\Administrator\\Desktop\\my-website\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\Administrator\\Desktop\\Portfolio-Development-Environment\\sidebars.js",
+          "contentPath": "C:\\Users\\Administrator\\Desktop\\Portfolio-Development-Environment\\docs",
+          "contentPathLocalized": "C:\\Users\\Administrator\\Desktop\\Portfolio-Development-Environment\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "intro",
