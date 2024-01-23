@@ -8,7 +8,7 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -16,17 +16,26 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+
+        {/* Buttons */}
+        <div className={styles.buttons} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/blog">
+            Take a look at my blog!
+          </Link>
+          <div style={{ margin: '8px' }}></div>
+          <Link
+            className="button button--secondary button--lg"
+            to="docs">
+            Coming Soon! 👀
           </Link>
         </div>
       </div>
     </header>
   );
 }
+
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
@@ -36,7 +45,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

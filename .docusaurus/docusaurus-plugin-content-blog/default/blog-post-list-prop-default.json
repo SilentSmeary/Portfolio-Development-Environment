@@ -7,18 +7,13 @@
       "unlisted": false
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post",
+      "title": "TrueNAS Core",
+      "permalink": "/blog/truenas-core",
       "unlisted": false
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post",
-      "unlisted": false
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post",
+      "title": "Windows Server",
+      "permalink": "/blog/windows-server",
       "unlisted": false
     }
   ]

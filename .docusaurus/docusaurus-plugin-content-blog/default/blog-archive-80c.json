@@ -4,101 +4,79 @@
       "id": "welcome",
       "metadata": {
         "permalink": "/blog/welcome",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
-        "source": "@site/blog/2021-08-26-welcome/index.md",
+        "source": "@site/blog/2048-01-18-Welcome.md",
         "title": "Welcome",
-        "description": "Docusaurus blogging features are powered by the blog plugin.",
-        "date": "2021-08-26T00:00:00.000Z",
-        "formattedDate": "August 26, 2021",
-        "tags": [
-          {
-            "label": "facebook",
-            "permalink": "/blog/tags/facebook"
-          },
-          {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.405,
+        "description": "Welcome, this is my first blog post. I' m currently a student at UTC Leeds studing the Design and Development Digital T Level. As part of the course we have been given some old enterprise hardware from another school that were no longer using it anymore. I install took interest in the installation of services and the deployment of self hosted services.",
+        "date": "2048-01-18T00:00:00.000Z",
+        "formattedDate": "January 18, 2048",
+        "tags": [],
+        "readingTime": 0.94,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
-          },
-          {
-            "name": "Yangshun Tay",
-            "title": "Front End Engineer @ Facebook",
-            "url": "https://github.com/yangshun",
-            "imageURL": "https://github.com/yangshun.png",
-            "key": "yangshun"
+            "name": "James",
+            "title": "Blog Creator",
+            "url": "https://github.com/SilentSmeary",
+            "image_url": "https://github.com/SilentSmeary.png",
+            "imageURL": "https://github.com/SilentSmeary.png"
           }
         ],
         "frontMatter": {
           "slug": "welcome",
           "title": "Welcome",
           "authors": [
-            "slorber",
-            "yangshun"
+            {
+              "name": "James",
+              "title": "Blog Creator",
+              "url": "https://github.com/SilentSmeary",
+              "image_url": "https://github.com/SilentSmeary.png",
+              "imageURL": "https://github.com/SilentSmeary.png"
+            }
           ],
-          "tags": [
-            "facebook",
-            "hello",
-            "docusaurus"
-          ]
+          "tags": []
         },
         "unlisted": false,
         "nextItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
+          "title": "TrueNAS Core",
+          "permalink": "/blog/truenas-core"
         }
       },
-      "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
+      "content": "Welcome, this is my first blog post. I' m currently a student at UTC Leeds studing the Design and Development Digital T Level. As part of the course we have been given some old enterprise hardware from another school that were no longer using it anymore. I install took interest in the installation of services and the deployment of self hosted services. \n\nAs part of the new servers that we had got our hands on we decided that we were going to run our own domain group for the sandbox machines that I will talk about later and for the Raspberry Pi5 that we also invested in more about that later. We planned that most of the machines were going to be running windows so we decided that it would be the best option to go for Windows Server 2019, It would have been nice to got for an newer more recent version of the operating system for the security patches and the new features. But due to the old hardware we met issues with the Fujitsu Raid card not been compatible with the Windows Server 2022 Builds."
     },
     {
-      "id": "mdx-blog-post",
+      "id": "truenas-core",
       "metadata": {
-        "permalink": "/blog/mdx-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
-        "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
-        "title": "MDX Blog Post",
-        "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
-        "date": "2021-08-01T00:00:00.000Z",
-        "formattedDate": "August 1, 2021",
-        "tags": [
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.175,
+        "permalink": "/blog/truenas-core",
+        "source": "@site/blog/2024-01-20-TrueNAS.md",
+        "title": "TrueNAS Core",
+        "description": "We wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where.",
+        "date": "2024-01-20T00:00:00.000Z",
+        "formattedDate": "January 20, 2024",
+        "tags": [],
+        "readingTime": 0.51,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Sébastien Lorber",
-            "title": "Docusaurus maintainer",
-            "url": "https://sebastienlorber.com",
-            "imageURL": "https://github.com/slorber.png",
-            "key": "slorber"
+            "name": "James",
+            "title": "Blog Creator",
+            "url": "https://github.com/SilentSmeary",
+            "image_url": "https://github.com/SilentSmeary.png",
+            "imageURL": "https://github.com/SilentSmeary.png"
           }
         ],
         "frontMatter": {
-          "slug": "mdx-blog-post",
-          "title": "MDX Blog Post",
+          "slug": "truenas-core",
+          "title": "TrueNAS Core",
           "authors": [
-            "slorber"
+            {
+              "name": "James",
+              "title": "Blog Creator",
+              "url": "https://github.com/SilentSmeary",
+              "image_url": "https://github.com/SilentSmeary.png",
+              "imageURL": "https://github.com/SilentSmeary.png"
+            }
           ],
-          "tags": [
-            "docusaurus"
-          ]
+          "tags": []
         },
         "unlisted": false,
         "prevItem": {
@@ -106,117 +84,54 @@
           "permalink": "/blog/welcome"
         },
         "nextItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
+          "title": "Windows Server",
+          "permalink": "/blog/windows-server"
         }
       },
-      "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
+      "content": "```\nSystem Specs\n    CPU: 2x Intel Xeon E5-2620\n    RAM: 192GB DDR3\n    BOOT DRIVE: 240GB Kingston SSD\n    STORAGE DRIVES: 5x 480GB Kingston SSD\n```\n\nWe wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where. \n\nTest123"
     },
     {
-      "id": "long-blog-post",
+      "id": "windows-server",
       "metadata": {
-        "permalink": "/blog/long-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
-        "source": "@site/blog/2019-05-29-long-blog-post.md",
-        "title": "Long Blog Post",
-        "description": "This is the summary of a very long blog post,",
-        "date": "2019-05-29T00:00:00.000Z",
-        "formattedDate": "May 29, 2019",
-        "tags": [
-          {
-            "label": "hello",
-            "permalink": "/blog/tags/hello"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 2.05,
-        "hasTruncateMarker": true,
-        "authors": [
-          {
-            "name": "Endilie Yacop Sucipto",
-            "title": "Maintainer of Docusaurus",
-            "url": "https://github.com/endiliey",
-            "imageURL": "https://github.com/endiliey.png",
-            "key": "endi"
-          }
-        ],
-        "frontMatter": {
-          "slug": "long-blog-post",
-          "title": "Long Blog Post",
-          "authors": "endi",
-          "tags": [
-            "hello",
-            "docusaurus"
-          ]
-        },
-        "unlisted": false,
-        "prevItem": {
-          "title": "MDX Blog Post",
-          "permalink": "/blog/mdx-blog-post"
-        },
-        "nextItem": {
-          "title": "First Blog Post",
-          "permalink": "/blog/first-blog-post"
-        }
-      },
-      "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
-    },
-    {
-      "id": "first-blog-post",
-      "metadata": {
-        "permalink": "/blog/first-blog-post",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
-        "source": "@site/blog/2019-05-28-first-blog-post.md",
-        "title": "First Blog Post",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-        "date": "2019-05-28T00:00:00.000Z",
-        "formattedDate": "May 28, 2019",
-        "tags": [
-          {
-            "label": "hola",
-            "permalink": "/blog/tags/hola"
-          },
-          {
-            "label": "docusaurus",
-            "permalink": "/blog/tags/docusaurus"
-          }
-        ],
-        "readingTime": 0.12,
+        "permalink": "/blog/windows-server",
+        "source": "@site/blog/2024-01-19-Windows_Server.md",
+        "title": "Windows Server",
+        "description": "",
+        "date": "2024-01-19T00:00:00.000Z",
+        "formattedDate": "January 19, 2024",
+        "tags": [],
+        "readingTime": 0,
         "hasTruncateMarker": false,
         "authors": [
           {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
+            "name": "James",
+            "title": "Blog Creator",
+            "url": "https://github.com/SilentSmeary",
+            "image_url": "https://github.com/SilentSmeary.png",
+            "imageURL": "https://github.com/SilentSmeary.png"
           }
         ],
         "frontMatter": {
-          "slug": "first-blog-post",
-          "title": "First Blog Post",
-          "authors": {
-            "name": "Gao Wei",
-            "title": "Docusaurus Core Team",
-            "url": "https://github.com/wgao19",
-            "image_url": "https://github.com/wgao19.png",
-            "imageURL": "https://github.com/wgao19.png"
-          },
-          "tags": [
-            "hola",
-            "docusaurus"
-          ]
+          "slug": "windows-server",
+          "title": "Windows Server",
+          "authors": [
+            {
+              "name": "James",
+              "title": "Blog Creator",
+              "url": "https://github.com/SilentSmeary",
+              "image_url": "https://github.com/SilentSmeary.png",
+              "imageURL": "https://github.com/SilentSmeary.png"
+            }
+          ],
+          "tags": []
         },
         "unlisted": false,
         "prevItem": {
-          "title": "Long Blog Post",
-          "permalink": "/blog/long-blog-post"
+          "title": "TrueNAS Core",
+          "permalink": "/blog/truenas-core"
         }
       },
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+      "content": ""
     }
   ]
 }

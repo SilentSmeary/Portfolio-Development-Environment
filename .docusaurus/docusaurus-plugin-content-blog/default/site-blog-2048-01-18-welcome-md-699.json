@@ -1,0 +1,39 @@
+{
+  "permalink": "/blog/welcome",
+  "source": "@site/blog/2048-01-18-Welcome.md",
+  "title": "Welcome",
+  "description": "Welcome, this is my first blog post. I' m currently a student at UTC Leeds studing the Design and Development Digital T Level. As part of the course we have been given some old enterprise hardware from another school that were no longer using it anymore. I install took interest in the installation of services and the deployment of self hosted services.",
+  "date": "2048-01-18T00:00:00.000Z",
+  "formattedDate": "January 18, 2048",
+  "tags": [],
+  "readingTime": 0.94,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "James",
+      "title": "Blog Creator",
+      "url": "https://github.com/SilentSmeary",
+      "image_url": "https://github.com/SilentSmeary.png",
+      "imageURL": "https://github.com/SilentSmeary.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome",
+    "authors": [
+      {
+        "name": "James",
+        "title": "Blog Creator",
+        "url": "https://github.com/SilentSmeary",
+        "image_url": "https://github.com/SilentSmeary.png",
+        "imageURL": "https://github.com/SilentSmeary.png"
+      }
+    ],
+    "tags": []
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "TrueNAS Core",
+    "permalink": "/blog/truenas-core"
+  }
+}

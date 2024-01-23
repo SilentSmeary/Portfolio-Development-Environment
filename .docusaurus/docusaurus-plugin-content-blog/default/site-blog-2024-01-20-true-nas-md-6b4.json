@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/truenas-core",
+  "source": "@site/blog/2024-01-20-TrueNAS.md",
+  "title": "TrueNAS Core",
+  "description": "We wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where.",
+  "date": "2024-01-20T00:00:00.000Z",
+  "formattedDate": "January 20, 2024",
+  "tags": [],
+  "readingTime": 0.51,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "James",
+      "title": "Blog Creator",
+      "url": "https://github.com/SilentSmeary",
+      "image_url": "https://github.com/SilentSmeary.png",
+      "imageURL": "https://github.com/SilentSmeary.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "truenas-core",
+    "title": "TrueNAS Core",
+    "authors": [
+      {
+        "name": "James",
+        "title": "Blog Creator",
+        "url": "https://github.com/SilentSmeary",
+        "image_url": "https://github.com/SilentSmeary.png",
+        "imageURL": "https://github.com/SilentSmeary.png"
+      }
+    ],
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  },
+  "nextItem": {
+    "title": "Windows Server",
+    "permalink": "/blog/windows-server"
+  }
+}
