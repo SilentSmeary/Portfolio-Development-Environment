@@ -2,11 +2,11 @@
   "permalink": "/blog/truenas-core",
   "source": "@site/blog/2024-01-20-TrueNAS.md",
   "title": "TrueNAS Core",
-  "description": "We wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where.",
+  "description": "Fujitsu RX300",
   "date": "2024-01-20T00:00:00.000Z",
   "formattedDate": "January 20, 2024",
   "tags": [],
-  "readingTime": 0.51,
+  "readingTime": 0.02,
   "hasTruncateMarker": false,
   "authors": [
     {

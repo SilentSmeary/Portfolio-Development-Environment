@@ -99,11 +99,11 @@
             "permalink": "/blog/truenas-core",
             "source": "@site/blog/2024-01-20-TrueNAS.md",
             "title": "TrueNAS Core",
-            "description": "We wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where.",
+            "description": "Fujitsu RX300",
             "date": "2024-01-20T00:00:00.000Z",
             "formattedDate": "January 20, 2024",
             "tags": [],
-            "readingTime": 0.51,
+            "readingTime": 0.02,
             "hasTruncateMarker": false,
             "authors": [
               {
@@ -138,7 +138,7 @@
               "permalink": "/blog/windows-server"
             }
           },
-          "content": "```\nSystem Specs\n    CPU: 2x Intel Xeon E5-2620\n    RAM: 192GB DDR3\n    BOOT DRIVE: 240GB Kingston SSD\n    STORAGE DRIVES: 5x 480GB Kingston SSD\n```\n\nWe wanted to make sure that there was plenty of space for file storage for the users that were using the new Domain. So we decided that a seperate server handling data would be the best. We decided to host the TrueNAS on a seperate physical machine this would ensure that if there was a failure on one machine that any data that was stored on the server would not be lost and would be stored else where. \n\nTest123"
+          "content": "![Fujitsu RX300](fujitsu-rx300.png)\n\n:::info\n\n:::"
         },
         {
           "id": "windows-server",
