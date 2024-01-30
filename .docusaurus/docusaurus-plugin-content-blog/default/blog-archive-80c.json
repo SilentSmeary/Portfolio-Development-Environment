@@ -10,7 +10,7 @@
         "date": "2048-01-18T00:00:00.000Z",
         "formattedDate": "January 18, 2048",
         "tags": [],
-        "readingTime": 0.94,
+        "readingTime": 0.555,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -41,7 +41,7 @@
           "permalink": "/blog/truenas-core"
         }
       },
-      "content": "Welcome, this is my first blog post. I' m currently a student at UTC Leeds studing the Design and Development Digital T Level. As part of the course we have been given some old enterprise hardware from another school that were no longer using it anymore. I install took interest in the installation of services and the deployment of self hosted services. \n\nAs part of the new servers that we had got our hands on we decided that we were going to run our own domain group for the sandbox machines that I will talk about later and for the Raspberry Pi5 that we also invested in more about that later. We planned that most of the machines were going to be running windows so we decided that it would be the best option to go for Windows Server 2019, It would have been nice to got for an newer more recent version of the operating system for the security patches and the new features. But due to the old hardware we met issues with the Fujitsu Raid card not been compatible with the Windows Server 2022 Builds."
+      "content": "Welcome, this is my first blog post. I' m currently a student at UTC Leeds studing the Design and Development Digital T Level. As part of the course we have been given some old enterprise hardware from another school that were no longer using it anymore. I install took interest in the installation of services and the deployment of self hosted services. \r\n\r\nAs part of the new servers that we had got our hands on we decided that we were going to run our own domain group for the sandbox machines that I will talk about later and for the Raspberry Pi5 that we also invested in more about that later."
     },
     {
       "id": "truenas-core",
@@ -49,11 +49,11 @@
         "permalink": "/blog/truenas-core",
         "source": "@site/blog/2024-01-20-TrueNAS.md",
         "title": "TrueNAS Core",
-        "description": "Fujitsu RX300",
+        "description": "Introduction",
         "date": "2024-01-20T00:00:00.000Z",
         "formattedDate": "January 20, 2024",
         "tags": [],
-        "readingTime": 0.02,
+        "readingTime": 3.175,
         "hasTruncateMarker": false,
         "authors": [
           {
@@ -88,7 +88,7 @@
           "permalink": "/blog/windows-server"
         }
       },
-      "content": "![Fujitsu RX300](fujitsu-rx300.png)\n\n:::info\n\n:::"
+      "content": "### Introduction\r\nWe needed a safe fast and secure solution for storage. We need a solution that supported both Windows Shares (SMB) and Linux Shares. With the requirements that we need and the hardware that we have the search began. For the OS that was compatible with our older hardware and that worked with newish drives that were harvested from our old college machines that were no longer in use.\r\n\r\n### Final Choice\r\nAfter a few days searching and countless failed attempts to deploy a working server we found TrueNAS Scale and Core. After looking into the documentation for both of them. We found that it was not viable for use TrueNAS Scale as it ment we needed two boot drives this would have made the machines more redundant incase of a drive failure. For a long term solution this would have been much more viable. But we didnt not have the drive bays aviable for the space that we wanted. As the server only had 6 bays we decided to go for the TrueNAS Core which required us to have one boot drive. Which was perfect for our situation.\r\n\r\n### Hardware Specs\r\nThe server chasis is a Fujitsu RX300 S7. On the front of the server there are 6 SATA ports in the front of the server. That are connect with a SAS connected to the PCIE Raid Card on the motherboard. The server has two CPUs both `Intel Xeon E5-2620` with 12 cores and 24 threads. We decided to make the server have as much memory as we had available this was to make sure that we were able to set the RAM and the primary cache so that the drives could handle the max efficenty possible and always be running and handling data the fastest possible speed. `192GB DDR3 1066 mhz` memory.\r\n\r\n### Installation Process\r\n:::tip\r\nCheck the official **TrueNAS** Documentation for more support!\r\n\r\nhttps://www.truenas.com/docs/\r\n:::\r\n\r\nThe installation process was mostly normal there was no major hickups with the installation. Once the OS was installed the first hurdle was fighting with the network card. I wanted to make sure that we had the fastest Network Card to make sure that users were able to upload larger files at the the same time and not stress the network attempting the tasks. The servers came with the added network card by standard when they arrvied. We had the 2 ports that were standard to the motherboard, there was then two ports that were added with one of the extra network cards. We had another network card that added four more ports. There was one more network card that added two SFP ports. that we were not set up to use effectively so I decided to take that extra card out of the server to reduce the slots that showed up on there already. From there it was configurating the network, I had assigned the Static IP to the right port and made sure that the port was given the network by checking the network link lights on the network card. They were both flashing to indicate that the network was connected and authenticated. I attempted to connect to the website and recived the first error of the day. The IP was inaccessable. From there we spent two to three days attempting to fix the network errors with no outcome we decided that the best choice was to setup a DHCP pool on our VLAN to get DHCP to hand out and IP to give us the correct networking information, which allowed for straight connection. This allowed for us to make the connection and then change the IP on the socket to be a Static IP to make deployment much easier\r\n\r\n### Drives\r\n```\r\n1x 240GB Kingston SSD [BOOT]\r\n5x 480GB Kingston SSD [STORAGE] \r\n```"
     },
     {
       "id": "windows-server",
