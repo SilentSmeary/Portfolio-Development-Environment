@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/proxmox",
+  "source": "@site/blog/2024-02-24-Hudno.md",
+  "title": "Proxmox",
+  "description": "",
+  "date": "2024-02-24T00:00:00.000Z",
+  "formattedDate": "February 24, 2024",
+  "tags": [],
+  "readingTime": 0,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "James",
+      "title": "Blog Creator",
+      "url": "https://github.com/SilentSmeary",
+      "image_url": "https://github.com/SilentSmeary.png",
+      "imageURL": "https://github.com/SilentSmeary.png"
+    }
+  ],
+  "frontMatter": {
+    "slug": "proxmox",
+    "title": "Proxmox",
+    "authors": [
+      {
+        "name": "James",
+        "title": "Blog Creator",
+        "url": "https://github.com/SilentSmeary",
+        "image_url": "https://github.com/SilentSmeary.png",
+        "imageURL": "https://github.com/SilentSmeary.png"
+      }
+    ],
+    "tags": []
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  },
+  "nextItem": {
+    "title": "TrueNAS Core",
+    "permalink": "/blog/truenas-core"
+  }
+}
